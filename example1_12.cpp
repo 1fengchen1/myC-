@@ -35,8 +35,3 @@ using namespace std;
 //	system("pause");
 //}
 
-void main() {
-	
-	cout <<  * new int(55);
-	system("pause");
-}
