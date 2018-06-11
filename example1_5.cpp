@@ -5,10 +5,9 @@
 #include <iostream>
 using namespace std;
 
-typedef double array[10];
-
 
 //void main() {
+//	typedef double array[10];
 //	array a = { 12, 34, 56, 78, 90, 11, 22, 33, 44, 55 };
 //	array &b = a;
 //	a[2] = 100;				//²Ù×÷Êý×éa

@@ -12,13 +12,15 @@ using namespace std;
 
 //int main() {
 //	string str1 = "we are here !", str2 = str1;				//使用str1初始化str2，这样做是为了保证str2有足够的空间存储str1
+//
 //	reverse(&str1[0], &str1[0] + 12);						//将str1反转
-//	cout << str1 << endl;
 //
-//	copy(&str1[0], &str1[0] + 12, &str2[0]);				//将str1复制给str2
-//	cout << str2 << endl;
 //
-//	reverse_copy(&str2[0], &str2[0] + 12, ostream_iterator< char >(cout, "\n"));	//反向输出str2
+//
+//	//copy(&str1[0], &str1[0] + 12, &str2[0]);				//将str1复制给str2
+//	//cout << str2 << endl;
+//
+//	//reverse_copy(&str2[0], &str2[0] + 12, ostream_iterator< char >(cout, "\n"));	//反向输出str2
 //
 //
 //	system("pause");
@@ -54,8 +56,12 @@ str.begin() 表示首个元素的地址
 //	str1.swap(str2);
 //	cout << str1 << " " << str2 << endl;
 //
-//	cout << ( *find(str1.begin(), str1.end(), 'e') == 'e' ) << " "
-//		<< ( *find(str1.begin(), str1.end(), 'O') == 'O' ) << endl;
+//	//cout << ( *find(str1.begin(), str1.end(), 'e') == 'e' ) << " "
+//	//	<< ( *find(str1.begin(), str1.end(), 'O') == 'O' ) << endl;
+//
+//
+//	cout << *find(str1.begin(), str1.end(), 'e') << endl;							//string 不能使用find()函数，会提示错误；前面要加*
+//
 //
 //	system("pause");
 //	return 0;

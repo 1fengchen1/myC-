@@ -7,7 +7,7 @@ cout << dec 命令执行后，将保持八进制输出
 #include <iomanip>
 using namespace std;
 
-const double PI = 3.141593;
+//const double PI = 3.141593;
 
 //void main() {
 //	cout << PI << endl

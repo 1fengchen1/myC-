@@ -5,13 +5,14 @@
 
 #include <iostream>								//包含头文件
 using namespace std;							//使用命名空间
-int result(int, int);							//result函数原型声明
 
-const int k = 2;								//定义常量
-
-struct Point {									//定义结构体point
-	int x, y;
-};
+//int result(int, int);							//result函数原型声明
+//
+//const int k = 2;								//定义常量
+//
+//struct Point {									//定义结构体point
+//	int x, y;
+//};
 
 /*****************************
 
@@ -21,10 +22,10 @@ struct Point {									//定义结构体point
 
 *****************************/
 
-int result(int a, int b)				
-{
-	return a + b;								//返回a + b
-}
+//int result(int a, int b)				
+//{
+//	return a + b;								//返回a + b
+//}
 
 //****************************
 /*

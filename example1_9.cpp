@@ -31,6 +31,8 @@ using namespace std;
 //	cout << (*find(a, a + 10, 'h') == 'h') << " "
 //		<< (*find(a, a + 10, 'o') == 'o') << endl;
 //
+//	cout << find(a, a + 10, 'a') << endl;					//找到a后，返回a和其后面还有的元素
+//	cout << *find(a, a + 10, 'a') << endl;					//只返回a
 //	system("pause");
 //
 //}
